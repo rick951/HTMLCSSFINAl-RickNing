@@ -1,0 +1,237 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.whole{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.one{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.one-blockk{
+    width: 3.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    margin-right: 1vw;
+}
+    .one-block{
+        width: 4vw;
+        height: 1vh;
+        background-color: #C7C7C7;
+        border: black 0.1rem solid;
+        margin-top: 1vh;
+        border-radius: 1rem;
+    }
+    .people-img{
+        width: 5vw;
+        margin: 1vh;
+        margin-top: 8vh;
+        margin-right: 2.5vw;
+    }
+.two{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 2.5vw;
+}
+    .two-text{
+        margin-left: 7.5vw;
+    }
+.three{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+    .three-1{
+        width: 25vw;
+        height: 70vh;
+        /* border: yellow 5px solid; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 3vw;
+    }
+        .three1-1{
+            margin-top: 8vh;
+            font-size: 4vh;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2vh;
+        }
+        .three1-2{
+            width: 12vw;
+            height: 6vh;
+            border-top: 0.6vh black solid;
+            border-left: 0.6vh black solid;
+            border-right: 0.6vh black solid;
+            border-top-left-radius:1.5rem ;
+            border-top-right-radius: 1.5rem;
+        }
+        .three1-3{
+            width: 15vw;
+            height: 41vh;
+            border-bottom: 0.6vh black solid;
+            border-left: 0.6vh black solid;
+            border-right: 0.6vh black solid;
+            border-radius: 1.5rem;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            flex-wrap: wrap;
+        }
+        .three1-4{
+            width: 100%;
+            text-align: center;
+            margin-top: 3vh;
+            font-size: 3vh;
+        }
+        .three1-3-1{
+            width: 97%;
+            height: 7vh;
+            display: flex;
+            align-items: center;
+            background-color: #73E0CE;
+            border-radius: .9rem;
+            margin-top: 1vh;
+        }
+            .three1-3-1-1{
+                width: 70%;
+                margin-left: 1vw;
+            }
+            .three1-3-1-2{
+                width: 30%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+        .date{
+            color: black;
+            font-size: 2.5vh;
+        }
+        .done{
+            color: black;
+            font-size: 2vh;
+            background-color: #FFDC1D;
+            padding-left: 0.5vw;
+            padding-right: 0.5vw;
+            border-radius: 1rem;
+        }
+    .three-2{
+        width: 25vw;
+        height: 75vh;
+        /* border: yellow 5px solid; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .three-3{
+        width: 25vw;
+        height: 70vh;
+        /* border: yellow 5px solid; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-right: 3vw;
+    }
+
+    .three2-1{
+        margin-top: 2vh;
+        font-size: 4vh;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+    .three2-2{
+        width: 15vw;
+        height: 6vh;
+        border-top: 0.6vh black solid;
+        border-left: 0.6vh black solid;
+        border-right: 0.6vh black solid;
+        border-top-left-radius:1.5rem ;
+        border-top-right-radius: 1.5rem;
+    }
+    .three2-3{
+        width: 20vw;
+        height: 54vh;
+        border-bottom: 0.6vh black solid;
+        border-left: 0.6vh black solid;
+        border-right: 0.6vh black solid;
+        border-radius: 1.5rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .three2-4{
+        width: 100%;
+        text-align: center;
+        margin-top: 3vh;
+        font-size: 3vh;
+    }
+
+    .three2-3-1{
+        width: 97%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        background-color: #C7C7C7;
+        border-radius: .9rem;
+        margin-top: .5vh;
+    }
+    .orange{
+        background-color: #F58500;
+    }
+        .three2-3-1-1{
+            width: 70%;
+            margin-left: 1vw;
+        }
+        .three2-3-1-2{
+            width: 30%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+    .three3-3-1{
+        width: 97%;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        background-color: #C7C7C7;
+        border-radius: .9rem;
+        margin-top: .5vh;
+    }
+    .three3-3-1-1{
+        width: 70%;
+        margin-left: 1vw;
+    }
+    .three3-3-1-2{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .three3-3-3{
+        width: 97%;
+        height: 14vh;
+        display: flex;
+        align-items: center;
+        background-color: #FF6F6F;
+        border-radius: .9rem;
+        margin-top: .5vh;
+    }

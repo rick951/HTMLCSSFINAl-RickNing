@@ -1,0 +1,214 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.whole{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    width: 77.5vw;
+    background-color: white;
+}
+    .one{
+        display: flex;
+        align-items: center;
+        height: 10vh;
+        width: 100%;
+        margin-top: 2vh;
+        font-size: 1.5vw;
+    }   
+        .stuzzle-img{
+            width: 3vw;
+            margin-left: 3vw;
+            margin-right: 1vw;
+        }
+    .two{
+        display: flex;
+        width: 100%;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12vh;
+        font-size: 2.75vw;
+    }
+        .sound-img{
+            width: 7vw;
+            margin-right: 2vw;
+        }
+    .three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10vh;
+        font-size: 6vh;
+    }
+        .three-text1{
+            font-size: 15vh;
+            font-weight:1;
+            margin-left: 2vw;
+            margin-right: 2vw;
+        }
+        .halloween-img{
+            width: 10vw;
+        }
+    .four  {
+        text-align: center;
+        font-size: 3vh;
+    }
+    .five{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+    }
+        .five-orange{
+            height: 2.5vh;
+            width: 2.5vh;
+            background-color: orange;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            border-radius: 10rem;
+        }
+        .five-blue{
+            height: 2.5vh;
+            width: 2.5vh;
+            background-color: #73E0CE;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            border-radius: 10rem;
+        }
+    .six{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vh;
+
+    }
+        .six-img1{
+            width: 5vw;
+            margin-left: 4vw;
+        }
+        .six-text{
+            font-size: 3vh;
+            margin-left: 1vw;
+        }
+    .seven{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vh;
+    }
+
+.right{
+    width:22.5vw;
+    background-color: #73E0CE;
+    flex-wrap: wrap;
+}
+    .r-one{
+        width: 4.5vw;
+        height: 10vh;
+        margin-top: 3vh;
+        margin-left: 16vw;
+    }
+        .people-img{
+            width: 5vw;
+            margin: 1vh;
+        }
+    .r-two{
+        display: flex;
+        width: 100%;
+        margin-top: 4vh;
+        font-size: 4vh;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        margin-bottom: 3vh;
+    }
+    .event{
+        width: 100%;
+        height: 4vh;
+        align-items: center;
+        display: flex;
+        font-size: 2.8vh;
+    }
+        .circle{
+            width: 1vh;
+            height: 1vh;
+            border: black solid 1.5px;
+            border-radius: 5rem;
+            margin-right: 1vw;
+            margin-left: 4vw;
+        }
+    .month{
+        margin-left: 4vw;
+        font-size: 3vh;
+        margin-top: 2vh ;
+    }
+        .month-text{
+            padding-bottom: 1vh;
+            width: 6vw;
+            height: 2.3vh;
+            background-color: orange;
+            border-radius: 15rem;
+        }
+    .calendar{
+        width: 15vw;
+        margin-left: 4.25vw;
+        margin-top: 2vh;
+        background-color: white;
+        border: black solid 0.5vh;
+        border-radius: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-content: center;
+    }
+    .calendar-month{
+        font-size: 3vh;
+        padding-left:1.5vw;
+        margin-top: 1vh;
+        width: 100%;
+        height: 5.25vh;
+    }
+        .date{
+            height: 3.125vh;
+            width: 2vw;
+            text-align: center;
+        }
+        .note{
+            margin-left: 4vw;
+            font-size: 3vh;
+            margin-top: 2vh ;
+        }
+            .note-text{
+                padding-bottom: 1vh;
+                width: 4.5vw;
+                height: 2.3vh;
+                background-color: #FF6F6F;
+                border-radius: 15rem;
+            }
+    .note-box{
+        width: 15vw;
+        height: 12vh;
+        margin-left: 4.25vw;
+        margin-top: 2vh;
+        background-color: white;
+        border: black solid 0.5vh;
+        border-radius: 1.5rem;
+        font-size: 1.4vw;
+        padding:1vh;
+        font-weight: 600;
+    }

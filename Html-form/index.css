@@ -1,0 +1,8 @@
+#box{
+    padding: 20px;
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    border: indigo solid 5px;
+    color: lightgreen;
+}
