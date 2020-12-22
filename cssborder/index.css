@@ -1,0 +1,19 @@
+
+.mydiv{
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+
+    /* Border style */
+
+    /* border-width: 5px ;
+    border-color: cyan;
+    border-style: dashed; */
+    /* must needed  */
+    border: 15px rgb(108, 243, 108) solid;
+    /* border-top: rgb(63, 20, 255) solid 10px; */
+    
+    /* Round corner */
+    
+    border-top-right-radius: 50px;
+}
