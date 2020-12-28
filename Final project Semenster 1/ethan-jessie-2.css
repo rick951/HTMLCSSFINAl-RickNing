@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .whole{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+  .top{
+      width: 100vw;
+      height: 10vh;
+      display: flex;
+  } 
+    .top-img{
+        height: 8vh;
+        margin-top: 1vh;
+        margin-left: 1vw;
+    }
+    .top-img2{
+        height: 6vh;
+        margin-top: 2.5vh;
+        margin-left: 65vw;
+    }
+    .top2{
+        font-size: 6vh;
+        color: #1B7092;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top:2vh; ;
+        margin-left: 1vw;
+        }
+        .top-name{
+            font-size: 3.25vh;
+            margin-top: 3vh;
+            margin-left: 0.5vw;
+            font-weight: 600;
+            color: rgb(100, 100, 100);
+        }
+  .left{
+      width: 20%;
+      height: 89.8vh;
+      border-top: #1b7092 0.25vh solid;
+      border-right: #1b7092 0.25vh solid;
+      /* display: flex;
+      flex-wrap: wrap; */
+  }
+    .L-text{
+        color:#1b7092 ;
+        width: 100%;
+        font-size: 3.5vh;
+        font-weight: 700;
+        margin-left: 1vw;
+        margin-top: 3vh;
+    }
+    .L-bottem{
+        display: flex;
+    }
+    .L-1-1{
+        color:#1b7092 ;
+        font-size: 3vh;
+        font-weight: 900;
+        margin-left: 1vw;
+        margin-top: 26vh;
+    }
+    .L-img  {
+        height: 4vh;
+        margin-left: 1vw;
+        margin-top: 26vh;
+    }
+  .right{
+      width: 79.75%;
+      height: 90vh;
+      background-color:#A9D1E2 ;
+      display: flex;
+      flex-wrap: wrap;
+  }
+    .topic{
+        color:white ;
+        font-size: 7vh;
+        width: 100%;
+        text-align: center;
+        font-weight: 900;
+        margin-top: 2vh;
+        margin-bottom: 2.5vh;
+    }
+    .day{
+        height:75vh;
+        background-color: white;
+        width: 12.5vw;
+        margin-left: 3vw;
+    }
+    .r1{
+        height: 7.5vh;
+        width: 100%;
+        background-color: #1b7092;
+        color: white;
+        font-size: 5vh;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .r2{
+        height: 20vh;
+        border-bottom: #1b7092 solid 0.5vh ;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        color:#1b7092 ;
+    }
+    .r2-time{
+        margin-top: 1vh;
+        font-size: 3vh;
+        width: 100%;
+        text-align: center;
+    }
+    .r2-class{
+        font-size: 3.5vh;
+        font-weight: 900;
+        margin-bottom: 5vh;
+        text-align: center;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }

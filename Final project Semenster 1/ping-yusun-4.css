@@ -1,0 +1,262 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.three-img{
+    position: fixed;
+    height: 35vh;
+    margin-top: 37vh;
+    margin-left: 9.5vw;
+}
+.whole{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.one{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.one-blockk{
+    width: 3.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    margin-right: 1vw;
+}
+    .one-block{
+        width: 4vw;
+        height: 1vh;
+        background-color: #C7C7C7;
+        border: black 0.1rem solid;
+        margin-top: 1vh;
+        border-radius: 1rem;
+    }
+    .people-img{
+        width: 5vw;
+        margin: 1vh;
+        margin-top: 8vh;
+        margin-right: 2.5vw;
+    }
+.two{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    font-size: 2.5vw;
+}
+    .two-text{
+        margin-left: 7.5vw;
+    }
+    .two-2{
+        width: 100%;
+        font-size: 3vh;
+        height: 3vh;
+        display: flex;
+        align-items: center;
+    }
+    .two-2-text{
+        margin-left: 7.5vw;
+    }
+/* ============== */
+.three{
+    width: 100vw;
+    height: 65vh;
+    /* background-color: gray; */
+    display: flex;
+}
+    .three1{
+        width: 30vw;
+        height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+        .three1-1{
+            width: 10vw;
+            margin-left: 15vh;
+            margin-right: 15vh;
+            height: 3vh;
+            border: solid black 0.5vh;
+            border-bottom: 0vh;
+            margin-top: 6vh;
+            border-radius: 2vh;
+        }
+
+        .three1-2{
+            width: 15vw;
+            height: 50vh;
+            border: solid black 0.5vh;
+            margin-bottom: 5vh;
+            border-radius: 2vh;
+        }
+            .three1-2-1{
+                width: 15vw;
+                height: 2vh;
+            }
+            .three1-2-2{
+                width: 15vw;
+                height: 48vh;
+                background-color: #73E0CE;
+                border-radius: 2vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+    .three2{
+        width: 50vw;
+        height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5vw;
+    }
+    .three2-flex{
+        width: 40vw;
+        height: 7vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+        .three2-1{
+            height: 15vh;
+            width: 7vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+            .three2-1-text{
+                padding-left: 1vw;
+                padding-right: 1vw;
+                padding-bottom: 0.25vh;
+                padding-top: 0.25vh;
+                border-radius: 1rem;
+                font-size: 3vh;
+            }
+            .orange{
+                background-color:#f4b30c ;
+            }
+            .yellow{
+                background-color:  #FFDC1D;
+            }
+            .red{
+                background-color:#ff6f6f ;
+            }
+        .three2-2{
+            height: 5vh;
+            width: 33vw;
+            display: flex;
+            align-items: center;
+            font-size:3.5vh;
+        }
+        .three2-3{
+            height: 2vh;
+            width: 33vw;
+            display: flex;
+            align-items: center;
+            color: gray;
+            font-size: 2.5vh;
+        }
+    .dot1{
+        color: black;
+        font-size: 2vh;
+        background-color: #FFDC1D;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+        border-radius: 1rem;
+    }
+    .three3{
+        width: 20vw;
+        height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .three3-top{
+        height: 15vh;
+        width: 100%;
+    }
+    .three3-bottem{
+        height: 15vh;
+        width: 100%;
+    }
+    .three3-list{
+        display: flex;
+        flex-wrap: wrap;
+        width: 20vw;
+        height: 5vh;
+        align-items: center;
+    }
+    .three-HW-dot{
+        width: 2vw;
+        height: 1.5vh;
+        background-color: #f4b30c;
+        margin-left: 1vw;
+        border-radius: 1rem;
+    }
+    .three-test-dot{
+        width: 2vw;
+        height: 1.5vh;
+        background-color: #FFDC1D;
+        margin-left: 1vw;
+        border-radius: 1rem;
+    }
+    .three-quiz-dot{
+        width: 2vw;
+        height: 1.5vh;
+        background-color: #ff6f6f;
+        margin-left: 1vw;
+        border-radius: 1rem;
+    }
+    .three-submit-dot{
+        width: 2vw;
+        height: 1.5vh;
+        background-color: #73E0CE;
+        margin-left: 1vw;
+        border-radius: 1rem;
+    }
+    .three-late-dot{
+        width: 2vw;
+        height: 1.5vh;
+        background-color: red;
+        margin-left: 1vw;
+        border-radius: 1rem;
+    }
+    .three3-text{
+        font-size: 2.5vh;
+        width: 5vw;
+        height: 2vh;
+        margin-left: 1vw;
+    }
+        
+
+/* =================== */
+.four{
+    width: 100%;
+    height: 15vh;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    align-items: flex-end;
+}
+    .box{
+        font-size: 3vh;
+        border-top: solid black 0.5vh;
+        border-bottom: solid black 0.5vh;
+        border-right: solid black 0.5vh;
+        border-top-right-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+        height: 10vh;
+        width: 2vw;
+        text-align: center;
+        line-height: 2vw;
+        vertical-align: auto;
+        margin-top:2.25vh;
+    }
+
