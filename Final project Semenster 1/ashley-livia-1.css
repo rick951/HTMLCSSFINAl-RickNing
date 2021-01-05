@@ -33,7 +33,6 @@
     grid-area: item3; 
     display: flex;
     flex-wrap: wrap;  
-    /* justify-content: center; */
     align-items: center;
 }
 .img1
